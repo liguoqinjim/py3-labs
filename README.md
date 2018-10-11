@@ -6,3 +6,4 @@
 |lab002|appium|
 |lab003|百度语音python sdk||
 |lab004|读取文件|
+|lab005|解析json||
