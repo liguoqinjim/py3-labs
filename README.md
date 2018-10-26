@@ -13,3 +13,4 @@
 |lab009|requests|todo|
 |lab010|编码|hex,sha1,md5|
 |lab011|写入文件|
+|lab012|时间戳|
