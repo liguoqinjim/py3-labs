@@ -14,3 +14,4 @@
 |lab010|编码|hex,sha1,md5|
 |lab011|写入文件|
 |lab012|时间戳|
+|lab013|openpyxl|对xls的读写|
