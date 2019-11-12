@@ -16,3 +16,4 @@
 |lab012|时间戳| |
 |lab013|openpyxl|对xls的读写|
 |lab014|GeneralNewsExtractor|https://github.com/kingname/GeneralNewsExtractor|
+|lab015|captcha，A captcha library that generates audio and image CAPTCHAs.|https://github.com/lepture/captcha |
