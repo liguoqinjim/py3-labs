@@ -19,3 +19,4 @@
 |lab015|captcha，A captcha library that generates audio and image CAPTCHAs.|https://github.com/lepture/captcha |
 |lab016|tushare，交易数据| |
 |lab017|akshare，交易数据| |
+|lab018|baostock，交易数据| |
