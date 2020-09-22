@@ -13,10 +13,11 @@
 |lab009|requests|todo|
 |lab010|编码|hex,sha1,md5|
 |lab011|写入文件| |
-|lab012|时间戳| |
+|lab012|时间戳，当前时间，时间格式| |
 |lab013|openpyxl|对xls的读写|
 |lab014|GeneralNewsExtractor|https://github.com/kingname/GeneralNewsExtractor|
 |lab015|captcha，A captcha library that generates audio and image CAPTCHAs.|https://github.com/lepture/captcha |
 |lab016|tushare，交易数据| |
 |lab017|akshare，交易数据| |
 |lab018|baostock，交易数据| |
+|lab019|判断文件是否存在| |
