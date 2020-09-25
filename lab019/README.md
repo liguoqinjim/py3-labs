@@ -6,6 +6,7 @@
 |lab002|判断文件夹是否存在| |
 |lab003|创建文件夹| |
 |lab004|删除文件| |
+|lab005|遍历文件夹||
 
 ## 参考资料
  - [删除文件，文件夹](https://www.cnblogs.com/aaronthon/p/9509538.html)
