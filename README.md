@@ -8,7 +8,7 @@
 |lab004|读取文件| |
 |lab005|解析json| |
 |lab006|讯飞语音识别| |
-|lab007|字符串|todo|
+|lab007|字符串| |
 |lab008|url encode|todo from urllib.parse import quote,quote('上海', 'utf-8'),unquote|
 |lab009|requests|todo|
 |lab010|编码|hex,sha1,md5|
@@ -22,3 +22,4 @@
 |lab018|baostock，交易数据| |
 |lab019|文件，文件夹相关| |
 |lab020|datetime| |
+|lab021|list遍历| |
