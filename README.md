@@ -26,4 +26,4 @@
 |lab022|pyflink| |
 |lab023|usim800|串口通信 |
 |lab024|模型部署| |
-|lab025|flask||
+|lab025|flask| |
