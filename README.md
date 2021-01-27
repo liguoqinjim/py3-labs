@@ -24,3 +24,6 @@
 |lab020|datetime| |
 |lab021|list遍历| |
 |lab022|pyflink| |
+|lab023|usim800|串口通信 |
+|lab024|模型部署| |
+|lab025|flask||
