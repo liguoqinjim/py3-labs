@@ -28,4 +28,5 @@
 |lab024|模型部署| |
 |lab025|flask| |
 |lab026|命令行参数| |
-|lab027||
+|lab027|notion| |
+|lab028|tinyapi,Python wrapper around TinyLetter's publicly accessible — but undocumented — API.|https://github.com/jsvine/tinyapi|
