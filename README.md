@@ -25,7 +25,7 @@
 |lab021|list遍历| |
 |lab022|pyflink| |
 |lab023|usim800|串口通信 |
-|lab024|模型部署| |
+|lab024|tensorflow模型部署，serving| |
 |lab025|flask| |
 |lab026|命令行参数| |
 |lab027|notion| |

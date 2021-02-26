@@ -33,9 +33,13 @@ pred2 = model.predict([[230.1, 37.8, 69.2]])
 print("pred2={}".format(pred2))
 
 # 保存模型
+# 模型名称
+model_name = "foo_model"
+# 模型版本
 version = 1
-export_path = "../model/model01/{}".format(version)
-print('export_path = {}'.format(export_path))
+# 导出路径
+export_path = "../model_path/{}/{}".format(model_name, version)
+print('model export path={}'.format(export_path))
 
 tf.keras.models.save_model(
     model,
@@ -46,4 +50,3 @@ tf.keras.models.save_model(
     signatures=None,
     options=None
 )
-
