@@ -1,10 +1,9 @@
-import pandas as pd
-from flask import Flask
-
+from flask import Flask, request, jsonify
 from sklearn.datasets import fetch_california_housing
 from sklearn import tree
 from sklearn.model_selection import train_test_split
 from joblib import dump, load
+import traceback
 
 model_directory = 'model'
 model_file_name = '%s/model.pkl' % model_directory
@@ -31,10 +30,10 @@ def train_and_save():
 
     # 构建决策树
     dtr = tree.DecisionTreeRegressor(random_state=0)
-    dtr.fit(data_train[:[6, 7]], target_train)
+    dtr.fit(data_train, target_train)
 
     # 查看score
-    score = dtr.score(data_test[:[6, 7]], target_test)
+    score = dtr.score(data_test, target_test)
     print("score=", score)
     print(data_train[:1])
 
@@ -42,12 +41,37 @@ def train_and_save():
     dump(dtr, model_file_name)
 
 
+# 预测
+def load_and_predict():
+    global dtr
+    dtr = load(model_file_name)
+    result = dtr.predict([[8.3252, 41., 6.98412698, 1.02380952, 322., 2.55555556, 37.88, 122.23]])
+    print(result)
+
+
+app = Flask(__name__)
+
+
+@app.route("/predict", methods=["POST"])
+def predict():
+    if dtr:
+        try:
+            json_ = request.json
+
+            prediction = list(dtr.predict(json_["instances"]))
+            return jsonify({"prediction": prediction})
+        except Exception as e:
+            return jsonify({'error': str(e), 'trace': traceback.format_exc()})
+    else:
+        print('train first')
+        return 'no model here'
+
+
 if __name__ == '__main__':
     # 保存模型
-    train_and_save()
+    # train_and_save()
 
     # 加载模型
-    # dtr = load(model_file_name)
-    # dtr.predict()
+    load_and_predict()
 
-    exit()
+    app.run(port=8080)
