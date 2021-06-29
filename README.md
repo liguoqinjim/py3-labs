@@ -34,3 +34,4 @@
 |lab030|chinese-calendar,判断一天是不是法定节假日/法定工作日（查看节假日安排）|https://github.com/LKI/chinese-calendar|
 |lab031|mp3-tagger,ID3 data editor|https://github.com/artcom-net/mp3-tagger|
 |lab032|SQLAlchemy,https://www.sqlalchemy.org/||
+|lab033|tqdm|https://github.com/tqdm/tqdm|
