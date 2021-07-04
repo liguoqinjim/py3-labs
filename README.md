@@ -35,3 +35,4 @@
 |lab031|mp3-tagger,ID3 data editor|https://github.com/artcom-net/mp3-tagger|
 |lab032|SQLAlchemy,https://www.sqlalchemy.org/||
 |lab033|tqdm|https://github.com/tqdm/tqdm|
+|lab034|pymongo|mongodb|
