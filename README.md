@@ -36,3 +36,4 @@
 |lab032|SQLAlchemy,https://www.sqlalchemy.org/||
 |lab033|tqdm|https://github.com/tqdm/tqdm|
 |lab034|pymongo|mongodb|
+|lab035|判断当前系统 | |
