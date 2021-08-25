@@ -37,3 +37,4 @@
 |lab033|tqdm|https://github.com/tqdm/tqdm|
 |lab034|pymongo|mongodb|
 |lab035|判断当前系统 | |
+|lab036|计算日期，如：下个星期一||
