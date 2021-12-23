@@ -1,15 +1,10 @@
-from concurrent.futures import as_completed, ProcessPoolExecutor
 from tqdm import tqdm
+import time
 
-
-def process_param(param):
-    return param
-
-
-params = range(100000)
-executor = ProcessPoolExecutor(20)
-jobs = [executor.submit(process_param, param) for param in params]
-
-results = []
-for job in tqdm(as_completed(jobs), total=len(jobs)):
-    results.append(job.result())
+# total参数设置进度条的总长度
+with tqdm(total=100) as pbar:
+    for i in range(100):
+        time.sleep(0.05)
+        print("i=", i)
+        # 每次更新进度条的长度
+        pbar.update(1)
