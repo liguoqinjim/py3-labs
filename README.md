@@ -38,3 +38,5 @@
 |lab034|pymongo|mongodb|
 |lab035|判断当前系统 | |
 |lab036|计算日期，如：下个星期一||
+|lab037|logging||
+|lab038|loguru,Python logging made (stupidly) simple|https://github.com/Delgan/loguru|
