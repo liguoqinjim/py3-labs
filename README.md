@@ -40,3 +40,4 @@
 |lab036|计算日期，如：下个星期一||
 |lab037|logging||
 |lab038|loguru,Python logging made (stupidly) simple|https://github.com/Delgan/loguru|
+|lab039|multiprocessing --- 基于进程的并行||
