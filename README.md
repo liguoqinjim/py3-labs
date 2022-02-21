@@ -41,3 +41,4 @@
 |lab037|logging||
 |lab038|loguru,Python logging made (stupidly) simple|https://github.com/Delgan/loguru|
 |lab039|multiprocessing --- 基于进程的并行||
+|lab040|kedro|https://github.com/kedro-org/kedro|
