@@ -43,3 +43,4 @@
 |lab039|multiprocessing --- 基于进程的并行||
 |lab040|kedro|https://github.com/kedro-org/kedro|
 |lab041|toml,Python lib for TOML|https://github.com/uiri/toml|
+|lab042|eval| |
