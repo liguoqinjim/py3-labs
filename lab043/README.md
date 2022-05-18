@@ -2,7 +2,9 @@
 
 |文件|简介|说明|
 |---|---|---|
-|lab001| | |
+|lab001|实验一 |已经写入hugo |
+|lab002|resample| |
+|lab003|数据类型转换||
 
 ## TODO
  - [x] dict创建pandas
