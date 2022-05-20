@@ -34,8 +34,17 @@ def lab001():
     print(df.dtypes)
 
 
+def lab002():
+    df = pd.DataFrame(['50%', '75%'], columns=['percents'])
+    print(df)
+
+    df['percents'] = df['percents'].str.strip('%').astype(float) / 100
+    print(df)
+
+
 def run():
-    lab001()
+    # lab001()
+    lab002()
     pass
 
 

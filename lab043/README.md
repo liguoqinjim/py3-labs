@@ -4,7 +4,7 @@
 |---|---|---|
 |lab001|实验一 |已经写入hugo |
 |lab002|resample| |
-|lab003|数据类型转换||
+|lab003|数据类型转换、百分比数据转换为float||
 
 ## TODO
  - [x] dict创建pandas

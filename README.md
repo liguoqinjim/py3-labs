@@ -45,3 +45,5 @@
 |lab041|toml,Python lib for TOML|https://github.com/uiri/toml|
 |lab042|eval| |
 |lab043|pandas|pandas的一些操作，配合文章：https://liguoqinjim.com/post/python/pandas%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/|
+|lab044|python:数据组合|如数据的两两组合，三三组合|
+|lab045|python:获取当前执行的脚本名称| |
