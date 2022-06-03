@@ -10,7 +10,7 @@
 |lab006|讯飞语音识别| |
 |lab007|字符串| |
 |lab008|url encode|todo from urllib.parse import quote,quote('上海', 'utf-8'),unquote|
-|lab009|requests|todo|
+|lab009|requests,A simple, yet elegant, HTTP library|https://github.com/psf/requests|
 |lab010|编码|hex,sha1,md5|
 |lab011|写入文件| |
 |lab012|时间戳，当前时间，时间格式| |
@@ -47,3 +47,4 @@
 |lab043|pandas|pandas的一些操作，配合文章：https://liguoqinjim.com/post/python/pandas%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/|
 |lab044|python:数据组合|如数据的两两组合，三三组合|
 |lab045|python:获取当前执行的脚本名称| |
+|lab046|tenacity,Retrying library for Python|https://github.com/jd/tenacity|
