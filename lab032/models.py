@@ -14,3 +14,6 @@ class ShopScore(Base):
     y = Column(Numeric)
     version = Column(Integer)
     create_date = Column(DateTime, server_default=text("now()"))
+
+    def as_dict(self):
+        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
