@@ -49,3 +49,4 @@
 |lab045|python:获取当前执行的脚本名称| |
 |lab046|tenacity,Retrying library for Python|https://github.com/jd/tenacity|
 |lab047|Pool||
+|lab048|python内存| |
