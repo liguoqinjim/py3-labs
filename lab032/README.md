@@ -5,6 +5,7 @@
 |---|---|---|
 |lab001|mysql增删改查| |
 |lab002|postgres||
+|lab003|raw sql| |
 
 
 ## 生成映射代码
