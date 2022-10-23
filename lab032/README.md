@@ -4,8 +4,9 @@
 |实验|简介|说明|
 |---|---|---|
 |lab001|mysql增删改查| |
-|lab002|postgres||
+|lab002|postgres| |
 |lab003|raw sql| |
+|lab004|创建表| |
 
 
 ## 生成映射代码
@@ -30,5 +31,7 @@ def as_dict(self):
     return {c.name: getattr(self, c.name) for c in self.__table__.columns}
 ```
 
+## table
+
 ## 参考资料
- - [postgresql的orm](https://www.jb51.net/article/214878.htm)   ,注意需要有主键或者索引，不然不会生成class
+ - [postgresql的orm](https://www.jb51.net/article/214878.htm)   ,注意需要有主键或者索引，不然不会生成class，只会有table
