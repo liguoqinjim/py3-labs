@@ -50,3 +50,4 @@
 |lab046|tenacity,Retrying library for Python|https://github.com/jd/tenacity|
 |lab047|Pool||
 |lab048|python内存| |
+|lab049|plotly||
