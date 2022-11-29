@@ -52,3 +52,4 @@
 |lab048|python内存| |
 |lab049|plotly| |
 |lab050|正则| |
+|lab051|redis消息订阅| |
