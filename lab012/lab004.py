@@ -18,3 +18,9 @@ print(d1)
 # datetime->str
 s1 = d1.strftime("%Y-%m-%d")
 print(s1)
+
+# str->datetime
+s2 = '2022-12-03'
+d2 = datetime.datetime.strptime(s2, "%Y-%m-%d")
+print(d2)
+print(d2.year, d2.month, d2.day)
