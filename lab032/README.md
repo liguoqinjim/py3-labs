@@ -11,6 +11,7 @@
 
 ## 生成映射代码
 安装：`pip install sqlacodegen`
+NOTICE：直到20230215，请安装`pip install "SQLAlchemy<2"`，因为从2开始结构改了，但是sqlacodegen还没升级。
 ### mysql
 `pip install mysql-connector`
 ### postgresql

@@ -75,7 +75,7 @@ def demo04_delete():
 
 
 if __name__ == '__main__':
-    # demo01_query()
+    demo01_query()
     # demo02_insert()
     # demo03_update()
-    demo04_delete()
+    # demo04_delete()
