@@ -54,3 +54,4 @@
 |lab050|正则| |
 |lab051|redis消息订阅| |
 |lab052|plyer,Plyer is a platform-independent Python wrapper for platform-dependent APIs. Notification|https://github.com/kivy/plyer|
+|lab053|geatpy|https://github.com/geatpy-dev/geatpy|

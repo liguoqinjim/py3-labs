@@ -113,3 +113,5 @@ lab024/lab003/train.csv
 lab024/lab003/model
 lab024/lab004/model
 lab031/data
+lab053/**/result*
+lab053/**/referenceObjV*
