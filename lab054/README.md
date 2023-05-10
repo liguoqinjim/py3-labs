@@ -9,5 +9,5 @@
  - https://stackoverflow.com/questions/17651017/python-post-osx-notification
 
 ## terminal-notifier
-安装：brew install terminal-notifier
+安装：brew install terminal-notifier ，https://github.com/julienXX/terminal-notifier
 设置里面允许通知
