@@ -56,3 +56,4 @@
 |lab052|plyer,Plyer is a platform-independent Python wrapper for platform-dependent APIs. Notification|https://github.com/kivy/plyer|
 |lab053|geatpy|https://github.com/geatpy-dev/geatpy|
 |lab054|mac通知| |
+|lab055|RPA-Python,Python package for doing RPA|https://github.com/tebelorg/RPA-Python|
