@@ -59,3 +59,4 @@
 |lab055|RPA-Python,Python package for doing RPA|https://github.com/tebelorg/RPA-Python|
 |lab056|pyautogui,A cross-platform GUI automation Python module for human beings. Used to programmatically control the mouse & keyboard.|https://github.com/asweigart/pyautogui|
 |lab057|shapely,Manipulation and analysis of geometric objects|https://github.com/shapely/shapely|
+|lab058|weibo-crawler,新浪微博爬虫，用python爬取新浪微博数据，并下载微博图片和微博视频|https://github.com/dataabc/weibo-crawler|
