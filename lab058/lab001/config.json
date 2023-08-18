@@ -18,7 +18,7 @@
     "repost_max_download_count": 100,
     "user_id_as_folder_name": 0,
     "remove_html_tag": 1,
-    "cookie": "your cookie",
+    "cookie": "SCF=AiS2fwKt6KOb5p_XStbYt1ArDSVjoVaYiry1lNw8oID2I3V6awjiHxXxjJlJsT9G8tYNQ3cOgZjvnhY1lk-io9k.; SUB=_2A25J2w-lDeRhGedI4lQV8ybOwzyIHXVrJ5HtrDV6PUJbktAGLW3ekW1NVpYCVJL_F18Ic013DRiJQgxGxOvryboQ; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WW2PcR-BXnrsN3xjkg8wA1y5NHD95QpSo.cSheReon7Ws4DqcjTdsLrUgvpIg43IgXt; SSOLoginState=1692368885; ALF=1694960885; _T_WM=0559db5b8f882769f2ef7a09737556e7",
     "mysql_config": {
         "host": "localhost",
         "port": 3306,

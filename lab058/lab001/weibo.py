@@ -1568,7 +1568,8 @@ class Weibo(object):
                 count += 1
                 # 为防止被ban抓取一定数量的评论后随机睡3到6秒
                 if count % 20:
-                    sleep(random.randint(3, 6))
+                    # sleep(random.randint(3, 6))
+                    sleep(random.randint(6, 10))
             if (download_repost) and (weibo["reposts_count"] > 0):
                 self.get_weibo_reposts(
                     weibo, repost_max_count, self.sqlite_insert_reposts
@@ -1576,7 +1577,7 @@ class Weibo(object):
                 count += 1
                 # 为防止被ban抓取一定数量的转发后随机睡3到6秒
                 if count % 20:
-                    sleep(random.randint(3, 6))
+                    sleep(random.randint(6, 10))
 
         for weibo in retweet_list:
             self.sqlite_insert_weibo(con, weibo)
@@ -1913,10 +1914,10 @@ class Weibo(object):
                     # 制会自动解除)，加入随机等待模拟人的操作，可降低被系统限制的风险。默
                     # 认是每爬取1到5页随机等待6到10秒，如果仍然被限，可适当增加sleep时间
                     if (page - page1) % random_pages == 0 and page < page_count:
-                        sleep(random.randint(6, 10))
+                        sleep(random.randint(5, 10))
                         page1 = page
                         # random_pages = random.randint(1, 5)
-                        random_pages = random.randint(1, 3)
+                        random_pages = random.randint(1, 2)
 
                 self.write_data(wrote_count)  # 将剩余不足20页的微博写入文件
             logger.info("微博爬取完成，共爬取%d条微博", self.got_count)
