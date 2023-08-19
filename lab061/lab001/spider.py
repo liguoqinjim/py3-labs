@@ -14,10 +14,10 @@ from time import sleep
 from absl import app, flags
 from tqdm import tqdm
 
-from . import config_util, datetime_util
-from .downloader import AvatarPictureDownloader
-from .parser import AlbumParser, IndexParser, PageParser, PhotoParser
-from .user import User
+import config_util, datetime_util
+from downloader import AvatarPictureDownloader
+from parser import AlbumParser, IndexParser, PageParser, PhotoParser
+from user import User
 
 FLAGS = flags.FLAGS
 
@@ -100,16 +100,16 @@ class Spider:
                         user_id for user_id in user_id_list
                         if isinstance(user_id, dict)
                     ])) + list(
-                        map(
-                            lambda x: {
-                                'user_uri': x,
-                                'since_date': self.since_date,
-                                'end_date': self.end_date
-                            },
-                            set([
-                                user_id for user_id in user_id_list
-                                if not isinstance(user_id, dict)
-                            ])))
+                map(
+                    lambda x: {
+                        'user_uri': x,
+                        'since_date': self.since_date,
+                        'end_date': self.end_date
+                    },
+                    set([
+                        user_id for user_id in user_id_list
+                        if not isinstance(user_id, dict)
+                    ])))
             if FLAGS.u:
                 config_util.add_user_uri_list(self.user_config_file_path,
                                               user_id_list)
@@ -179,7 +179,7 @@ class Spider:
                     weibos, self.weibo_id_list, to_continue = PageParser(
                         self.cookie,
                         self.user_config, page, self.filter).get_one_page(
-                            self.weibo_id_list)  # 获取第page页的全部微博
+                        self.weibo_id_list)  # 获取第page页的全部微博
                     logger.info(
                         u'%s已获取%s(%s)的第%d页微博%s',
                         '-' * 30,

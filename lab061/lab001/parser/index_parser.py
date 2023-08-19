@@ -1,8 +1,8 @@
 import logging
 
-from .info_parser import InfoParser
-from .parser import Parser
-from .util import handle_html, string_to_int
+from info_parser import InfoParser
+from parser import Parser
+from util import handle_html, string_to_int
 
 logger = logging.getLogger('spider.index_parser')
 
