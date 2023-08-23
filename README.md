@@ -64,3 +64,4 @@
 |lab060|edge-tts,Use Microsoft Edge's online text-to-speech service from Python WITHOUT needing Microsoft Edge or Windows or an API key|https://github.com/rany2/edge-tts|
 |lab061|weiboSpider,新浪微博爬虫，需要cookie|https://github.com/dataabc/weiboSpider|
 |lab062|URL Scheme| |
+|lab063|lida,Automatic Generation of Visualizations and Infographics using Large Language Models|https://github.com/microsoft/lida|
