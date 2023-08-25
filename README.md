@@ -65,3 +65,4 @@
 |lab061|weiboSpider,新浪微博爬虫，需要cookie|https://github.com/dataabc/weiboSpider|
 |lab062|URL Scheme| |
 |lab063|lida,Automatic Generation of Visualizations and Infographics using Large Language Models|https://github.com/microsoft/lida|
+|lab064|日落日出时间| |
