@@ -67,3 +67,4 @@
 |lab063|lida,Automatic Generation of Visualizations and Infographics using Large Language Models|https://github.com/microsoft/lida|
 |lab064|日落日出时间| |
 |lab065|RPA-python|https://github.com/tebelorg/RPA-Python |
+|lab066|pyperclip，系统剪贴板|https://github.com/asweigart/ |
