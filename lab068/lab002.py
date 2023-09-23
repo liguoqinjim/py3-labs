@@ -16,7 +16,7 @@ def lab001():
     print(info)
 
     # 获得season
-    for s in info["item_lists"]['seasons_list']:
+    for s in info["items_lists"]['seasons_list']:
         meta = s['meta']
         print(meta['season_id'])
 
@@ -45,5 +45,26 @@ def lab001():
     print(info)
 
 
+def lab002():
+    """
+    x/space/wbi/arc/search
+    """
+    u = user.User(uid=133578883)
+
+    # 第一页
+    videos = []
+    page_size = 30
+    info = sync(u.get_videos(ps=30))
+    videos.extend(info['list']['vlist'])
+
+    page_total = info['page']['count'] // page_size + 1
+    for i in range(2, page_total + 1):
+        info = sync(u.get_videos(ps=30, pn=i))
+        print(info)
+        videos.extend(info['list']['vlist'])
+
+
+
 if __name__ == '__main__':
-    lab001()
+    # lab001()
+    lab002()
