@@ -70,3 +70,4 @@
 |lab066|pyperclip，系统剪贴板|https://github.com/asweigart/ |
 |lab067|百度OCR| |
 |lab068|bilibili-api,哔哩哔哩常用API调用。|https://github.com/nemo2011/bilibili-api|
+|lab069|icecream,🍦 Never use print() to debug again.|https://github.com/gruns/icecream|
