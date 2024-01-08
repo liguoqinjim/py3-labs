@@ -72,3 +72,4 @@
 |lab068|bilibili-api,哔哩哔哩常用API调用。|https://github.com/nemo2011/bilibili-api|
 |lab069|icecream,🍦 Never use print() to debug again.|https://github.com/gruns/icecream|
 |lab070|dash|plotly的dash|
+|lab071|croniter|https://github.com/kiorky/croniter|
