@@ -73,3 +73,4 @@
 |lab069|icecream,🍦 Never use print() to debug again.|https://github.com/gruns/icecream|
 |lab070|dash|plotly的dash|
 |lab071|croniter|https://github.com/kiorky/croniter|
+|lab072|测试代理|青果网络|
