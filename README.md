@@ -75,3 +75,4 @@
 |lab071|croniter|https://github.com/kiorky/croniter|
 |lab072|PyGithub,Typed interactions with the GitHub API v3|https://github.com/PyGithub/PyGithub|
 |lab073|测试代理|青果网络|
+|lab074|邮箱| |
