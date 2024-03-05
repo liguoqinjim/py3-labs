@@ -76,3 +76,4 @@
 |lab072|PyGithub,Typed interactions with the GitHub API v3|https://github.com/PyGithub/PyGithub|
 |lab073|测试代理|青果网络|
 |lab074|邮箱| |
+|lab075|SIGTERM|kill脚本|
