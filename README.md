@@ -77,3 +77,4 @@
 |lab073|测试代理|青果网络|
 |lab074|邮箱| |
 |lab075|SIGTERM|kill脚本|
+|lab076|pgvector|pg的向量拓展| 
