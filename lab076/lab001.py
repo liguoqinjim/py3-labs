@@ -46,6 +46,7 @@ def lab001():
     session = Session()
     try:
         sql = text(f"select embedding <-> '[1,2,3]' as distance,id from items")
+        # sql = text(f"select 1 - (embedding <=> '{select_embedding}') as distance,clean_value from repair_shop")
         result = session.execute(sql)
         for row in result:
             print("distance:", row[0], "id:", row[1])
