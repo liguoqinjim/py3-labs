@@ -41,7 +41,20 @@ def lab001():
     for row in result:
         item = row[0]
         print(item.id, item.embedding, type(item.embedding))
-    
+
+    # 计算距离
+    session = Session()
+    try:
+        sql = text(f"select embedding <-> '[1,2,3]' as distance,id from items")
+        result = session.execute(sql)
+        for row in result:
+            print("distance:", row[0], "id:", row[1])
+    except:
+        session.rollback()
+        raise
+    finally:
+        session.close()
+
 
 if __name__ == '__main__':
     lab001()
