@@ -78,3 +78,4 @@
 |lab074|邮箱| |
 |lab075|SIGTERM|kill脚本|
 |lab076|pgvector|pg的向量拓展| 
+|lab077|huggingface| |
