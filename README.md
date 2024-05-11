@@ -79,3 +79,4 @@
 |lab075|SIGTERM|kill脚本|
 |lab076|pgvector|pg的向量拓展| 
 |lab077|huggingface| |
+|lab078|放假调休API| |
