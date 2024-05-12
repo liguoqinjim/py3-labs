@@ -150,7 +150,7 @@ def download_image(url, file_path):
                 time.sleep(1)  # Wait for a second before retrying
                 continue
             else:
-                raise e
+                print("Error:", e)
 
     return False
 
