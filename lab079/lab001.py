@@ -1,4 +1,6 @@
 import os
+import time
+
 from tqdm import tqdm
 import requests
 import tinycss2
@@ -102,7 +104,9 @@ def create_html_table(data_dict, output_file, base_path):
             file_name = os.path.basename(value)
             local_path = os.path.join(base_path, file_name)
             # 下载并保存图片
-            download_image(value, local_path)
+            is_saved = download_image(value, local_path)
+            if not is_saved:
+                continue
             # 更新HTML用本地路径
             # img_src = local_path
             img_src = local_path.replace("data/", "")
@@ -133,10 +137,22 @@ def download_image(url, file_path):
     if os.path.exists(file_path):
         return
 
-    response = requests.get(url)
-    response.raise_for_status()  # 确保请求成功
-    with open(file_path, 'wb') as f:
-        f.write(response.content)
+    max_attempts = 3
+    for attempt in range(max_attempts):
+        try:
+            response = requests.get(url, timeout=5)
+            response.raise_for_status()  # 确保请求成功
+            with open(file_path, 'wb') as f:
+                f.write(response.content)
+                return True
+        except Exception as e:
+            if attempt < max_attempts - 1:  # i.e. if it's not the last attempt
+                time.sleep(1)  # Wait for a second before retrying
+                continue
+            else:
+                raise e
+
+    return False
 
 
 if __name__ == '__main__':
