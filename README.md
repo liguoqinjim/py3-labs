@@ -82,4 +82,5 @@
 |lab078|放假调休API| |
 |lab079|tinycss2,https://github.com/Kozea/tinycss2|解析css |
 |lab080|puppter| |
-|lab081|yolo||
+|lab081|yolo| |
+|lab082|gradio| |
