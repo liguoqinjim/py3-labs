@@ -15,7 +15,7 @@ class MemoryMonitor:
         self.process_name = process_name
         self.memory_data = []
         self.time_data = []
-        self.max_points = 200
+        self.max_points = 30000
         self.start_time = time.time()  # 记录开始监控的时间
 
         # 如果没有提供pid，则通过进程名查找
@@ -58,7 +58,7 @@ class MemoryMonitor:
             html.Div(id='memory-stats'),
             dcc.Interval(
                 id='interval-component',
-                interval=1000,  # 每秒更新
+                interval=1000 * 5,  # 每秒更新
                 n_intervals=0
             )
         ])
